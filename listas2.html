@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas en HTML</title>
+       <link rel="icon" type="image/gif/png/jpg" href="img/milo.jpg">
+</head>
+<body>
+    <!--Encabezado principal-->
+    <h1>Práctica de listas en HTML</h1>
+
+    <h2>1. Lista no ordenada (ul)</h2>
+    <p><strong>Lista de compras</strong></p>
+
+     <!--Lista no ordenada-->
+    <ul>
+        <li>Manzanas</li>
+        <li>Pan</li>
+        <li>Leche</li>
+        <li>Huevos</li>
+        <li>Queso</li>
+    </ul>
+
+    <h2>2. Lista no ordenada (ol)</h2>
+    <p><strong>Instrucciones para hcaer café</strong></p>
+
+    <ol>
+         <!--Lista ordenada-->
+        <li>Hervir agua</li>
+        <li>Agregar café molido</li>
+        <li>Esperar 4 minutos</li>
+        <li>Servir en una taza</li>
+        <li>Disfrutar!</li>
+    </ol>
+
+     <!--Listas anidadas (UL + OL)-->
+    <h2>3. Listas anidadas</h2>
+    <p><strong>Menu del restaurante</strong></p>
+    <ul> <!--Lista no ordenada-->
+        <li>
+            <strong>Entradas</strong>
+            <ul> <!--Lista no ordenada dentro de otra lista-->
+                <li>Ensalada cesar</li>
+                <li>Caldo de verduras</li>
+                <li>Caldo de res</li>
+            </ul>
+        </li>
+        <li>
+            <strong>Platos principales</strong>
+            <ol> <!--Lista ordenada dentro de otra lista-->
+                <li>Pasta Alfredo</li>
+                <li>Pollo asado</li>
+                <li>Pescado a la plancha</li>
+            </ol>
+        </li>
+        <li>
+            <strong>Postres</strong>
+            <ul> <!--Lista no ordenada dentro de otra lista-->
+                <li>Flan</li>
+                <li>Tarta de manzana</li>
+                <li>Helado</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>4. Lista ordenada con tipo "A" (mayusculas)</h2>
+    <ol type="A">
+        <!--Se acomodan desde A, B, C ...-->
+        <li>Primer elemento</li>
+        <li>Segundo elemento</li>
+        <li>Tercer elemento</li>
+    </ol>
+
+      <h2>5. Lista ordenada con tipo "i" (numeros enteros)</h2>
+    <ol type="i"> <!--Se acomodan con numeros romanos-->
+        <li>Capitulo I</li>
+        <li>Capitulo II</li>
+        <li>Capitulo III</li>
+        <li>Capitulo IV</li>
+    </ol>
+
+   <h2>6. Lista no ordenada con circulo (type="circle")</h2>
+    <ul type="circle"> <!--Se acomodan con circulos-->
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ul>
+
+   <h2>7. Lista no ordenada con estulo cuadrado (type="square")</h2>
+    <ul type="square"> <!--Se acomodan con cuadrados-->
+        <li>Elemento A</li>
+        <li>Elemento B</li>
+        <li>Elemento C</li>
+    </ul>
+
+    <h2>8. Lista no ordenada con elementos ordenados</h2>
+    <ul> <!--Lista no ordenada-->
+        <li>
+            <strong>Pasos para cocinar arroz</strong>
+            <ol> <!--Lista ordenada dentro de lista no ordenada-->
+                <li>Lavar el arroz</li>
+                <li>Colocar en una olla con agua</li>
+                <li>Cocinar por 20 minutos</li>
+                <li>Dejar reposar</li>
+            </ol>
+        </li>
+        <li>
+            <strong>Ingredientes</strong>
+            <ul> <!--Lista no ordenada dentro de lista no ordenada-->
+                <li>Arroz</li>
+                <li>Agua</li>
+                <li>Sal</li>
+            </ul>
+        </li>
+    </ul>
+    <br>
+    <hr> <!--Code se utiliza para mostrar los comandos de HTML sin problemas-->
+    <p><strong>Practica completada:</strong> Se han usado <code>ul</code> (listas no ordenadass), 
+        <code>ol</code> (listas ordenadas), anidacion de listas y atributos <code>type</code>.</p>
+
+</body>
+</html>
